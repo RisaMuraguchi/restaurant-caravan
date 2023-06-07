@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+header, nav, h2, .main-visual, footer {
+  font-family: "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 100%;
   padding: 15px 0;
@@ -23,6 +27,18 @@ header .heading {
 }
 
 header .heading a {
+  color: #fff;
+}
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
   color: #fff;
 }
 
