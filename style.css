@@ -68,18 +68,91 @@ header .heading a {
 main {
   width: 90%; /* 横幅90% */
   margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+  padding: 70px 0;
 }
 
-.news {
-  height: 550px; /* 高さ550px */
+.news-heading {
+  border-bottom: 8px solid #e7e7e7;
+  text-align: center;
+  line-height: 0.6;
+  color: black;
+  width: 20%;
+  margin: 0 auto;
 }
 
-.menu {
-  height: 550px; /* 高さ550px */
+.news-box {
+  padding: 50px 0 10px 0;
+  width: 100%;
+  display: flex;
 }
 
-.access {
-  height: 300px; /* 高さ300px */
+.news-image {
+  height: 250px;
+}
+
+.news-title {
+  text-align: center;
+  color: black;
+}
+
+.news-sub-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-message {
+  padding: 5px;
+}
+
+.menu-heading {
+  border-bottom: 8px solid #e7e7e7;
+  text-align: center;
+  line-height: 0.6;
+  color: black;
+  width: 20%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.menu-box {
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.menu-image {
+  height: 180px;
+  width: 250px;
+}
+
+.menu-text {
+  padding-left: 30px;
+}
+
+.menu-text-heading {
+  padding-bottom: 15px;
+}
+
+.menu-introduction {
+  font-size: 12px;
+}
+
+.new {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
 }
 
 footer {
