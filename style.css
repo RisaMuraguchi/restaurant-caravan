@@ -227,3 +227,69 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width:1024px) {
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .news-heading {
+    width: 90%;
+  }
+
+  .news-box {
+    display: block;
+  }
+
+  .news-image {
+    width: 100%;
+  }
+
+  .menu-heading {
+    width: 90%;
+  }
+
+  .menu-item {
+    display: block;
+  }
+
+  .menu-image {
+    height: 120px;
+    width: 100%;
+  }
+
+  .access-heading {
+    width: 90%;
+  }
+
+  .access-box {
+    display: block;
+    padding: 50px 5px 10px 5px;
+  }
+
+  .access-info {
+    width: 100%;
+  }
+
+  .access-reservation {
+    width: 100%;
+  }
+}
